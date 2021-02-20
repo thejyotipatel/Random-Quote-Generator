@@ -1,0 +1,74 @@
+*,::after,::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body{
+    font-family: var(--font-family);   
+    color: var(--font-color);
+    line-height: 1.5;
+    font-size: 1rem;
+    background-repeat: no-repeat;
+    background-color:  #293452;  
+}
+    .cantaner{
+        margin: 0;
+        padding: 0;
+    } 
+        .refresh{
+            border-radius: 2rem;
+            color: #293452; 
+            width: 6rem;
+            height: 3rem;
+            outline: none;
+            border: 0;
+            font-weight: bolder;
+            margin: 0.2rem;
+            background-color: #ffd65a;
+            cursor: pointer;
+        } 
+            .refresh:focus{
+                box-shadow: 5px 5px 5px #5f5a4b; 
+            } 
+                        
+            .quoteSection{
+                display: block;
+                text-align: center; 
+                bottom: 0;   
+            } 
+            .quote-title{
+                margin: 2rem 0 0 0;
+                text-align: center;
+                color: #ffd65a;
+                text-transform: uppercase;
+            }
+            .quote-title span{
+                color: #998a5be5;
+            }
+            img{
+                margin: 2rem 0;
+                height: 60vh;
+                max-width: 80%;
+                width: auto;
+                border-radius: 1rem;
+                border: 0.05rem solid #ffd65a;
+            }
+            .quotes{
+                color: #fff;
+            }
+            .quote{
+                position: absolute;
+                bottom: 0;
+                top: 55%;
+                font-size: 120%;
+                left: 50%;
+                transform: translate(-50%, -50%); 
+            }
+            .author{
+                position: absolute;
+                bottom: 0;
+                top: 80%;
+                left: 60%;
+                font-style: italic;
+                transform: translate(-50%, -50%); 
+            }
