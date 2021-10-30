@@ -45,14 +45,14 @@ body{
             .quote-title span{
                 color: #998a5be5;
             }
-            img{
+/*             img{
                 margin: 2rem 0;
                 height: 60vh;
                 max-width: 80%;
                 width: auto;
                 border-radius: 1rem;
                 border: 0.05rem solid #ffd65a;
-            }
+            } */
             .quotes{
                 color: #fff;
             }
